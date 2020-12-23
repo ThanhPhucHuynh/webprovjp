@@ -1,0 +1,116 @@
+body {
+    background: black;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+}
+*, ::after, ::before {
+    box-sizing: unset;
+}
+.root-nav{
+    position: fixed;
+    width: 100%;
+    background: #191919;
+    z-index: 2;
+
+}
+.nav {
+    padding: 10px 100px;
+    display: flex;
+    width: 70%;
+    margin: auto;
+    position: sticky;
+    left: 0;
+    top: 0;
+    background: #191919;
+}
+.nav-left {
+    width: 20%;
+}
+.nav-middle {
+    width: 60%;
+}
+.nav-right {
+    padding-top: 10px;
+    width: 20%;
+    color: #ffffff;
+    text-align: center;
+}
+.menu-list {
+    position: relative;
+    padding: 0;
+    width: 100%;
+    line-height: normal;
+    display: flex;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    margin: 10px;
+    justify-content: center;
+}
+.menu-list > li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    
+}
+.menu-list > li > a {
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff !important;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    justify-content: center;
+}
+.sub-menu {
+    visibility: hidden;
+    transition: visibility 0s, opacity .6s linear;
+    /* display: none; */
+    opacity: 0;
+    position: absolute;
+    padding: 0;
+    margin-top: 9px;
+    background: white;
+}
+.menu-list > li:hover > a {
+    
+    transition:  .6s;
+    background: #E84427;
+    cursor: pointer;
+}
+.menu-list >li:hover > .sub-menu {
+    visibility: visible;
+    opacity: 1;
+    /* display: block; */
+}
+.sub-menu > li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.sub-menu > li > a {
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 100;
+    color: #191919;
+    line-height: 40px;
+}
+.sub-menu > li:hover {
+    background: #E84427;
+    cursor: pointer;
+    transition: .6s;
+}
+.logo-img {
+    width: 200px;
+}
+.down-arrow-img {
+    width: 10px;
+    height: 10px;
+}
+.nav-right-txt {
+    padding: 10px;
+    background: #E84427;
+    text-decoration: unset;
+    border-radius: 5px;
+    color: white;
+}
