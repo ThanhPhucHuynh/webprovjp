@@ -97,7 +97,155 @@
     transition: ease .2s;
     transform: scale(1.3);
 }
+/* Session 4 */
 
+.session4{
+    height: 900px;
+    background-color: white;
+}
+.session4 .session4-one{
+    height: 50%;
+    background-color: coral;
+}
+.content-session4{
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.session4-background{
+    height: 100%;
+    /* transition: ease .1s; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
 
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    filter: grayscale(100%);
+}
+.session4-background-one{
+    background-image: url("../image/blender_2-8_launch_pad_thumb.jpg");
+}
+.session4-background-two{
+    background-image: url("../image/cgb_splp_teaser_still.jpg");
+}
+.session4-background-three{
+    background-image: url("../image/andreas-rocha-wintertravellersii05_cover2-1024x576.jpg");
+}
+.session4-content{
+    width: 100%;
+    height: 100%;
+ 
+}
+.box-content-session4{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.content-session4:hover .session4-background {
+	-webkit-transform: scale(1.3);
+    transform: scale(1.3);
+    height: 100%;
+    filter: grayscale(0%);
+    transition: .5s ease-in-out;
+}
+.content-session4:hover .session4-container {
+	-webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    /* height: 100%; */
+    /* filter: grayscale(0%); */
+    transition: .5s ease-in-out;
+}
+.session4-container{
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 90%;
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    transition: .5s ease-in-out;
 
+}
+.session4-text{
+    color: white;
+    height: 40%;
+    width: 100%;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10px;
+}
+.session4-button{
+    width: 100%;
+    margin: auto;
+}
+.session4-button .background-button{
+    margin: auto;
+    width: 150px;
+    height: 30px;
+}
+.session4-button .background-button p{
+    font-size: 15px;
+    padding: 5px;
+}
+.session4-two{
+    display: flex;
+    height: 50%;
+}
+.session4-two-content{
+    width: 50%;
+    height: 100%;
+    /* background-color: coral; */
+}
 
+/* session5 */
+.session5{
+    background-color: white;
+}
+.session5-content-two{
+    width: 100%;
+    margin: 20px auto;
+    padding: 10px;
+}
+.card-session5 {
+    margin: 20px;
+    padding: 0px;
+    background-color: #191919;
+}
+.card-session5 .card-body{
+    color: white;
+    text-align: center;
+}
+.card-session5 .card-body .card-text{
+    font-size: 10;
+}
+.card-session5 .card-img-top{
+    height: 200px;
+    filter: grayscale(100%);
+    transition: ease .5s;
+
+}
+.card-session5:hover .card-img-top{
+    height: 200px;
+    filter: grayscale(0%);
+    transition: ease .5s;
+}
+.session5-content-one{
+    text-align: center;
+    height: 200px;
+    width: 100%;
+    /* padding: 40px auto; */
+}
+.session5-content-one .content{
+    padding: 60px;
+}
+.session5-content-three{
+    height: 100px;
+}
+.session5-content-three .content-button:hover .background-button:hover{
+    background-color: silver !important;
+}
