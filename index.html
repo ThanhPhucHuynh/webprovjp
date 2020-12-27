@@ -14,25 +14,19 @@
         <!-- <link rel="stylesheet" href="./owlcarousel/owl.theme.default.min.css"> -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" />
-        <link rel="stylesheet" href="/styles/nav.css">
-        <link rel="stylesheet" href="/styles/session.css">
-
-        <link rel="stylesheet" href="/styles/session1.css">
-        <link rel="stylesheet" href="/styles/session2.css">
-        <link rel="stylesheet" href="/styles/session3.css">
-        <link rel="stylesheet" href="/styles/session4.css">
-        <link rel="stylesheet" href="/styles/session5.css">
-        <link rel="stylesheet" href="/styles/session6.css">
-        <link rel="stylesheet" href="/styles/session7.css">
-        <link rel="stylesheet" href="/styles/footer.css">
+        <link rel="stylesheet" href="./styles/nav.css">
+        <link rel="stylesheet" href="./styles/session.css">
+        <link rel="stylesheet" href="./styles/footer.css">
     </head>
-    <body>
+    <body onload="textEffect()">
         <div class="root">
             <div class="root-nav">
                 <div class="nav">
                     <div class="nav-left">
                         <a class="logo-link">
-                            <img class="logo-img" src="https://cgboost.com/wp-content/uploads/2019/01/cropped-190106_CGBoost_CI_logo_color.png" /> 
+                            <!-- <img class="logo-img" src="https://cgboost.com/wp-content/uploads/2019/01/cropped-190106_CGBoost_CI_logo_color.png" />  -->
+                            <img class="logo-img logo-img-dat" src="./image/Product/LOGO-PORT-FINAL-02-03.png" /> 
+
                         </a>
                     </div>
                     <div class="nav-middle">
@@ -138,11 +132,44 @@
                 </div>
             </div>
           </div>
-            <div class="session1" id="session-to-link">
-                
+            <div class="section2" id="session-to-link">
+                <h1 class="title-sec2">Tools to help you grow</h1>
+                <div class="content-sec2">
+                    <div class="com1-sec2">
+                        <i aria-hidden="true" class="far fa-play-circle"></i>
+                        <h3 class="txt-content">Online Academy</h3>
+                        <p class="txt-bottom">Quality online courses to push your Blender 3D skills to the next level and a student only learning community.</p>
+                        <a class="btn-sec2">Shop Courses</a>
+                    </div>
+                    <div class="com2-sec2">
+                        <i aria-hidden="true" class="fas fa-paint-brush"></i>
+                        <h3 class="txt-content">CG Art Challenges</h3>
+                        <p class="txt-bottom">Monthly art challenge with awesome prizes for the winners and a strong community of aspiring artists.</p>
+                        <a class="btn-sec2">Challenge Yourself</a>
+                    </div>
+                    <div class="com3-sec2">
+                        <i aria-hidden="true" class="far fa-newspaper"></i>
+                        <h3 class="txt-content">CG Art Challenges</h3>
+                        <p class="txt-bottom">Grow your CG Art skills with our library of quality Blender tutorials, CG artist interviews, advice videos and more.</p>
+                        <a class="btn-sec2">Start Learning</a>
+                    </div>
+                </div>
             </div>
-            <div class="session1">
-                
+            <div class="section3">
+                <div class="left-sec3">
+                    <p class="title-sec3">Your Host</p>
+                    <p class="name-sec3">Zach Reinhardt</p>
+                    <img class="img-sec3" src="./image/zach.png" >
+                </div>
+                <div class="right-sec3">
+                    <h1>We help you 
+                        <!-- <span id="txt-sec3"></span> -->
+                        <span id='text'></span>
+                         your Blender 3D skills!</h1>
+                    <p>Becoming a successful CG Artist was a long, and sometimes lonely road. I want to teach you everything I’ve learned along the way, to make your journey less painful and more fun.</p>
+                    <p>In the last 14+ years I’ve had the privilege of helping thousands of CG Artists just like you. Since then, I’ve won the “Artist of the Year Award 2018” awarded by JLE Group for my excellent teaching performance…</p>
+                    <a class="btn-sec3">Our Story</a>
+                </div>
             </div>
             <div class="session4">
                 <div class="session4-one">
@@ -225,8 +252,8 @@
                             <div class="row">
                               <div class="col-sm">
                                 <div class="card card-session5" style="width: 18rem;">
-
-                                    <img src="https://cgboost.com/wp-content/uploads/2020/11/Ozana-Nemcanin_final-768x432.jpg" class="card-img-top" alt="...">
+                                    <!-- <img src="https://cgboost.com/wp-content/uploads/2020/11/Ozana-Nemcanin_final-768x432.jpg" class="card-img-top" alt="..."> -->
+                                    <img src="./image/Product/1.jpg" class="card-img-top" alt="...">
                                     <div class="card-body">
                                         <h5>Artist Interview with Kay John Yim</h5>
                                         <hr>
@@ -242,7 +269,9 @@
                               <div class="col-sm">
                                 <div class="card card-session5" style="width: 18rem;">
                                    
-                                    <img src="https://cgboost.com/wp-content/uploads/2020/11/Ozana-Nemcanin_final-768x432.jpg" class="card-img-top" alt="...">
+                                    <!-- <img src="https://cgboost.com/wp-content/uploads/2020/11/Ozana-Nemcanin_final-768x432.jpg" class="card-img-top" alt="..."> -->
+                                    <img src="./image/Product/2.jpg" class="card-img-top" alt="...">
+
                                     <div class="card-body">
                                         <h5>Artist Interview with Kay John Yim</h5>
                                         <hr>
@@ -257,7 +286,9 @@
                               </div> 
                               <div class="col-sm">
                                 <div class="card card-session5" style="width: 18rem;">
-                                    <img src="https://cgboost.com/wp-content/uploads/2020/11/01_Kay-John-Yim_header-768x432.jpg" class="card-img-top" alt="...">
+                                    <!-- <img src="https://cgboost.com/wp-content/uploads/2020/11/01_Kay-John-Yim_header-768x432.jpg" class="card-img-top" alt="..."> -->
+                                    <img src="./image/Product/3.jpg" class="card-img-top" alt="...">
+
                                     <div class="card-body">
                                         <h5>Artist Interview with Kay John Yim</h5>
                                         <hr>
@@ -274,7 +305,9 @@
                             <div class="row">
                               <div class="col-sm">
                                 <div class="card card-session5" style="width: 18rem;">
-                                    <img src="https://cgboost.com/wp-content/uploads/2020/09/Felipe-Del-Rio_final-768x432.jpg" class="card-img-top" alt="...">
+                                    <!-- <img src="https://cgboost.com/wp-content/uploads/2020/09/Felipe-Del-Rio_final-768x432.jpg" class="card-img-top" alt="..."> -->
+                                    <img src="./image/Product/4.jpg" class="card-img-top" alt="...">
+
                                     <div class="card-body">
                                         <h5>Artist Interview with Kay John Yim</h5>
                                         <hr>
@@ -289,7 +322,9 @@
                               </div>
                               <div class="col-sm">
                                 <div class="card card-session5" style="width: 18rem;">
-                                    <img src="https://cgboost.com/wp-content/uploads/2020/10/cgb_6ways_banner_website-1-768x432.jpg" class="card-img-top" alt="...">
+                                    <!-- <img src="https://cgboost.com/wp-content/uploads/2020/10/cgb_6ways_banner_website-1-768x432.jpg" class="card-img-top" alt="..."> -->
+                                    <img src="./image/Product/5.jpg" class="card-img-top" alt="...">
+
                                     <div class="card-body">
                                         <h5>Artist Interview with Kay John Yim</h5>
                                         <hr>
@@ -304,7 +339,9 @@
                               </div>
                               <div class="col-sm">
                                 <div class="card card-session5" style="width: 18rem;">
-                                    <img src="https://cgboost.com/wp-content/uploads/2020/09/Felipe-Del-Rio_final-768x432.jpg" class="card-img-top" alt="...">
+                                    <!-- <img src="https://cgboost.com/wp-content/uploads/2020/09/Felipe-Del-Rio_final-768x432.jpg" class="card-img-top" alt="..."> -->
+                                    <img src="./image/Product/5.jpg" class="card-img-top" alt="...">
+
                                     <div class="card-body">
                                         <h5>Artist Interview with Kay John Yim</h5>
                                         <hr>
@@ -459,7 +496,7 @@
                         <div class="row">
                         <div class="col-sm">
                             <div class="session7-image">
-                                <img src="./image/2020_03_10_blender_hotkey_sheet_pages_thumb_small.png" alt="" srcset="">
+                                <!-- <img src="./image/2020_03_10_blender_hotkey_sheet_pages_thumb_small.png" alt="" srcset=""> -->
                             </div>
                         </div>
                         <div class="col-sm">
@@ -537,8 +574,8 @@
                             <li><a class="facebook" href="#"><i class="fab fa-facebook"></i></a></li>
                             <li><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></li>
                             <li><a class="dribbble" href="#"><i class="fab fa-dribbble"></i></a></li>
-                            <li><a class="linkedin" href="#"><i class="fab fa-linkedin"></i></a></li>   
-                            <!-- <i class="fab fa-facebook"></i> -->
+                            <li><a class="linkedin" href="#"><i class="fab fa-linkedin"></i></a></li>
+                            
                           </ul>
                         </div>
                       </div>
@@ -549,6 +586,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
         <script src="https://md-aqil.github.io/images/swiper.min.js"></script>
+        <script src="./action/section3.js"></script>
 
         <script>
             $('.owl-carousel').owlCarousel({
@@ -608,7 +646,59 @@
                 swiper: galleryThumbs
             }
         });
-        
+        // function([string1, string2],target id,[color1,color2])    
+
+
+        consoleText(['enhance', 'improve', 'boost','skyrocket','refine'], 'text',['tomato','tomato','tomato','tomato','tomato']);
+
+        function consoleText(words, id, colors) {
+        if (colors === undefined) colors = ['#fff'];
+        var visible = true;
+        var con = document.getElementById('console');
+        var letterCount = 1;
+        var x = 1;
+        var waiting = false;
+        var target = document.getElementById(id)
+        target.setAttribute('style', 'color:' + colors[0])
+        window.setInterval(function() {
+
+            if (letterCount === 0 && waiting === false) {
+            waiting = true;
+            target.innerHTML = words[0].substring(0, letterCount)
+            window.setTimeout(function() {
+                var usedColor = colors.shift();
+                colors.push(usedColor);
+                var usedWord = words.shift();
+                words.push(usedWord);
+                x = 1;
+                target.setAttribute('style', 'color:' + colors[0])
+                letterCount += x;
+                waiting = false;
+            }, 1000)
+            } else if (letterCount === words[0].length + 1 && waiting === false) {
+            waiting = true;
+            window.setTimeout(function() {
+                x = -1;
+                letterCount += x;
+                waiting = false;
+            }, 1000)
+            } else if (waiting === false) {
+            target.innerHTML = words[0].substring(0, letterCount)
+            letterCount += x;
+            }
+        }, 120)
+        window.setInterval(function() {
+            if (visible === true) {
+            // con.className = 'console-underscore hidden'
+            visible = false;
+
+            } else {
+            // con.className = 'console-underscore'
+
+            visible = true;
+            }
+        }, 400)
+        }
         </script>
     </body>
 </html>
